@@ -1,0 +1,31 @@
+-main landing page
+-sign in/join in page
+-client landing page
+-coach landing page
+
+
+-Explore drop down
+-language translator
+-become a coach page
+-coach dashboard
+-search page
+-profile(coach/clients) page
+-categories
+-marketplace page(e-books)
+-wishlist page
+-my shit page
+-guides page
+-cart
+-payement page
+-orders page*
+-messages pages / chat
+
+ 
+-
+
+
+
+
+
+
+
