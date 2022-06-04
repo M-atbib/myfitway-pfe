@@ -1,15 +1,13 @@
 import React from "react";
-import { Route } from "react-router-dom";
-import AppCl from "./client-pages/AppCl";
-import AppCo from "./coach-pages/AppCo";
-import AppM from "./main-pages/AppM";
-import PageNotFound from "./PageNotFound";
+//import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import MainHomePage from "./main-pages/MainHomePage";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Route exact path="/" component={AppM} />
+    <div className="app">
+      <h1>MMMMMMMMMMM</h1>
+      <MainHomePage />
+      <hr />
     </div>
   );
 }

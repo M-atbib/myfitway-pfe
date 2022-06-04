@@ -24,6 +24,14 @@ module.exports = {
           },
         },
       },
+      {
+        test: /.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /.jpg|jpeg|png|svg|gif|pdf$/,
+        use: ["file-loader"],
+      },
     ],
   },
 };
