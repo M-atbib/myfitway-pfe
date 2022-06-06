@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./common/Header";
-
+import Navbar from "./common/navbar/Navbar";
 function App() {
   return (
     <Router>
-      <Header />
+       <Navbar/>
+     
       <Switch>
         <Route path="/checkout">
           <h1>Chekout Page</h1>
