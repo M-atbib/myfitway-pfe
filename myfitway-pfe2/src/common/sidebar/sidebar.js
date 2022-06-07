@@ -1,9 +1,22 @@
 import React from 'react';
-import {Sidebarcontainer , Icon , CloseIcon,SideBtnWrap ,SidebarLink} from './Sideelements';
+
+import {Sidebarcontainer , 
+     Icon ,
+     CloseIcon,
+     SideBtnWrap ,
+     SidebarLink, 
+     SidebarWrapper ,
+     SidebarRoute,
+     SidebarMenu
+    } 
+     from './Sideelements';
+
+
+
 
 const sidebar = () => {
   return (
-<SidebarContainer>
+<Sidebarcontainer>
     <Icon>
     <CloseIcon/>
     </Icon>
@@ -21,7 +34,7 @@ const sidebar = () => {
     </SidebarWrapper>
 
       
-    </SidebarContainer>
+    </Sidebarcontainer>
   )
 }
 

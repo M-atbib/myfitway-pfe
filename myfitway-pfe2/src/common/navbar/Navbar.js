@@ -1,11 +1,12 @@
 import React from 'react';
+import { FaBars } from 'react-icons/fa';
 import {
   Nav,
   NavLink,
-  Bars,
   NavMenu,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  MobileIcon
 } from './navelements';
 
 const Navbar = () => {
@@ -15,7 +16,11 @@ const Navbar = () => {
         <NavLink to='/'>
           <img src={require('./logo192.png')} alt='logo' />
         </NavLink>
-        <Bars />
+        <MobileIcon>
+         < FaBars />
+        </MobileIcon>
+        
+        
         <NavMenu>
           <NavLink to='/about' activeStyle>
             About
