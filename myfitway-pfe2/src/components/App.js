@@ -9,11 +9,13 @@ import SignIn from "./SignIn";
 import ServicesPage from "./ServicesPage";
 import ContactPage from "./ContactPage";
 import ChoosePage from "./ChoosePage";
+import  FooterContainer  from './common/footer/footer';
 
 function App() {
   return (
     <Router>
       <NavBar />
+      
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route path="/about" component={AboutPage} />
@@ -23,6 +25,8 @@ function App() {
         <Route path="/sign-in" component={SignIn} />
         <Route component={NotFoundPage} />
       </Switch>
+      
+      <FooterContainer />
     </Router>
   );
 }
