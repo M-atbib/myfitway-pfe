@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,700;1,300;1,600&family=Roboto+Slab:wght@100;400;600;700&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*** Choose Page CSS***/
+
+.box{
+    margin: 30px auto;
+    max-width: 700px;
+    padding: 30px 80px;
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,h2{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    margin:10px 0 30px 0;
+}
+
+.boxes{
+    display: flex;
+}
+
+.client-box, .coach-box{
+    border: 1px solid grey;
+    display: flex;
+    border-radius: 6px;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 230px;
+    padding: 10px 10px 30px 10px;
+}
+
+.client-box:hover,
+.coach-box:hover{
+    background-color: rgb(241, 232, 232);
+}
+
+.client-box>input[type=radio],
+.coach-box>input[type=radio]{
+    margin-left: 200px;
+}
+
+/*.client-box>input[type=radio]:checked+button,
+.coach-box>input[type=radio]:checked+button{
+    background-color: #bcfd4c;
+}*/
+
+img{
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    background-color: #9ef704;
+    margin: 25px 0;
+    padding: 5px 70px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: #73b501;
+}
+
+.lien{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+.lien:hover{
+    color:white;
+}
+
+.login{
+    text-decoration: none;
+    color:#73b501;
+    font-weight: 600;
+}
+
+/*** Sign Up Page CSS ***/
+
+.btn-google{
+    background-color: rgb(0, 156, 209);
+    border-radius: 30px;
+    height: 41px;
+    width: 100%;
+    margin-top: 15px;
+    padding:0;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-google:hover{
+    background-color: rgb(1, 128, 170);
+}
+
+.btn-apple{
+    width: 100%;
+    height: 41px;
+    border: 1px solid black;
+    margin: 0;
+    padding:0;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;   
+}
+
+.btn-apple:hover{
+    background-color: rgb(230, 229, 229);
+}
+
+.btn-google>img{
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    right: 167px;
+    top: 4.9px;
+}
+
+.btn-apple>img{
+    height: 24px;
+    padding-top: 5px;
+}
+
+.name{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border:1px solid lightgray;
+    border-radius: 5px;
+}
+
+.policy{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.policy>input[type=checkbox]{
+    margin-bottom: 10px;
+}
+
+.policy>label{
+    font-size: 13px;
+    text-align: left;
+}
+
+input[type=submit]{
+    width: 100%;
+    border: none;
+    background-color: #98ed05;
+    margin: 25px 0;
+    padding: 5px 70px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px;
+}
+
+input[type=submit]:hover{
+    background-color: #77b905;
+}
+
+/*** Sign in Page CSS ***/
+.box-signin{
+    max-width: 500px;
+}
+
+.box-signin>input[type=text] {
+    margin-bottom: 0;
+}
+
+.box-signin>.btn-google>img{
+    right: 67px;
+}
+
+.box-signin>.signup{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up{
+    border: 2px solid #bcfd4c;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #bcfd4c;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.sign-up:hover{
+    color: #a0ea21;
+    background-color: rgb(236, 255, 231);
+}
